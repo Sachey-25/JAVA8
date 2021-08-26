@@ -21,7 +21,7 @@ public class MethodReference {
 		//Referring to the static method
 		listen func = MethodReference::something;
 		//Calling interface method
-		func.fun();
+		func.fun(); 
 		
 		//Example - 2 Using BiFunction java 8 utility
 		BiFunction<Integer,Integer,Integer> sum = Arithmetic::add;
